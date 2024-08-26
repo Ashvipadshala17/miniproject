@@ -1,0 +1,73 @@
+@font-face {
+    font-family: consolas;
+    src: url(../fonts/ConsolaMono-Book.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: consolas;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#page1 {
+    width: 100vw;
+}
+
+#page1 nav {
+    padding: 1.5vw 10px;
+    background: #ebebeb;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#left {
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+}
+
+#left svg {
+    width: 40px;
+}
+
+#left h1 {
+    color: black;
+}
+
+#right {
+    display: flex;
+    align-items: center;
+    color: black;
+    gap: 4vw;
+}
+
+#right-1 {
+    display: flex;
+    gap: 3vw;
+}
+
+#right-1 li {
+    list-style: none;
+}
+
+#right-2 {
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+
+#right-2 div {
+   width: 10px;
+   height: 20px;
+   background: #000;
+}
